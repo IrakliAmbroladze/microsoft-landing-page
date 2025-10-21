@@ -5,6 +5,7 @@ header {
   background-color: white;
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 .header,
 .left-side-header,
@@ -57,10 +58,37 @@ footer {
 }
 
 .main {
+  position: relative;
   height: 580px;
   width: 100%;
   background-image: url("../images/main-cover.avif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.main-header {
+  font-size: 48px;
+  letter-spacing: -0.025em;
+}
+
+.main-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 600px;
+  transform: translate(0, -50%);
+}
+
+.main-paragraph {
+  margin: 15px 0 40px;
+}
+
+.main button {
+  border: none;
+  background-color: #006dc1;
+  color: white;
+  padding: 12px 17px;
+  border-radius: 8px;
+  cursor: pointer;
 }
