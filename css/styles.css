@@ -55,3 +55,12 @@ footer {
   align-items: center;
   margin-right: 16px;
 }
+
+.main {
+  height: 580px;
+  width: 100%;
+  background-image: url("../images/main-cover.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
