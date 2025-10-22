@@ -158,11 +158,15 @@ footer {
   font-weight: 600;
   min-height: 40px;
   color: #fff;
+  cursor: pointer;
 }
-.trade-in-header {
+.trade-in-header,
+.product-header {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
+  line-height: 24px;
+  font-size: 16px;
 }
 
 .product-img {
