@@ -48,10 +48,32 @@ header {
 }
 
 footer {
-  background-color: skyblue;
-  height: 2000px;
+  background-color: rgb(242, 242, 242);
+  font-size: 15px;
+  font-weight: 400;
+  min-height: 200px;
+  margin-top: 48px;
+  padding: 30px 0;
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
+#contact {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  font-size: 11px;
+}
+#contact a {
+  color: #000;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 15px;
+  color: #616161;
+}
 .logo {
   display: flex;
   align-items: center;
