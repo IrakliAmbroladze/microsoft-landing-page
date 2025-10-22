@@ -15,8 +15,9 @@ header {
 }
 
 .header {
+  flex-wrap: wrap;
   height: 54px;
-  max-width: 1000px;
+  width: 90%;
   margin: 0 auto;
   justify-content: space-between;
   padding: 0 10px;
@@ -91,4 +92,9 @@ footer {
   padding: 12px 17px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+#trade-in {
+  width: 85%;
+  margin: 0 auto;
 }
