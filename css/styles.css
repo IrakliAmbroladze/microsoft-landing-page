@@ -103,4 +103,45 @@ footer {
     rgba(0, 0, 0, 0.12) 0px 0px 2px 0px,
     rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
   border-radius: 24px;
+  display: flex;
+}
+
+.trade-in-content {
+  width: 50%;
+  height: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.trade-in-content button {
+  padding: 8px 16px;
+  background-color: #0078d4;
+  letter-spacing: -0.48px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  min-height: 40px;
+  color: #fff;
+}
+.trade-in-header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.trade-in-img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  padding: 8px 8px 8px 0;
+  border-radius: 16px;
+}
+
+.trade-in-title {
+  font-size: 32px;
+  color: #0e1726;
+  font-weight: 500;
 }
